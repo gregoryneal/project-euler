@@ -66,7 +66,7 @@ window.onload = function() {
       if(prime_factors[i] > max) { max = prime_factors[i]; }
     }
     
-    outputResult("problem-3-output",max);
+    outputResult("problem-3-output","Result: <b>" + max + "</b>");
   }
 
   function outputResult(elementId, value) {
